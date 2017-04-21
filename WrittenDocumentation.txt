@@ -1,0 +1,39 @@
+Kushagra Pundeer
+CS 380
+Written Documentation
+
+Two main functions are defined. ASTAR_heuristic finds us the value of the heuristic for a given state or node. It is used in the ASTAR_search function. The A* Search algorithm has been implemented on the guidelined of the pseudocode presented in Lecture 3.1. We have two Lists OPEN and CLOSED defined. Now we iterate using while loop. A dictionary has been used to store the function values(f = g + h) as keys and nodes as values. 
+
+Now we find key minimum and access the first element in the List of nodes with the minimum key. As when function f is same it works as a breadth first search. Then we keep on following the A* alogrithm by incrementing the g values. Finally we get the solution.
+
+The solution and the path taken during the search are printed to screen.
+
+For SBPlevel0:
+
+We have 9 nodes 
+Time taken 0.0092 sec
+
+
+For SBPlevel1:
+
+We have 50 nodes
+Time taken 2.26 seconds
+
+
+The number of nodes and timetaken keep on increasing as we increase the level of the game.
+
+Note:
+
+To run the code type:-
+
+python SlidingBrickPuzzle.py SBPlevel0.txt
+
+here SBPlevel0.txt is the argument passed. This gives us the solution
+
+python SlidingBrickPuzzle.py SBPlevel0.txt > output-part2.txt 
+
+will print our output in the output-part2.txt
+
+
+
+
