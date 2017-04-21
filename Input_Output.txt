@@ -1,0 +1,4 @@
+Kushagra Pundeer
+CS 380 WA2
+
+The program has all definations of the functions required with no errors obtained. It calculates all the parts from the previous state. It also has a function that generates the Graph State Space. The Graph continues infinitely and thus was needed to be stopped. Debugging few synatxes should be able to run the program correctly.
